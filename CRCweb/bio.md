@@ -13,7 +13,7 @@ Core Values #
 Integrity: Ruben’s military background instilled in him an unwavering commitment to honesty, transparency, and ethical conduct. These values permeate every project undertaken by Abundis Construction.
 Excellence: Whether renovating a historic building or constructing a modern commercial space, Ruben and his team strive for excellence. Their attention to detail and precision ensures that each project exceeds expectations.
 Community Impact: Beyond business, Ruben remains deeply connected to his community. Abundis Construction actively engages in initiatives that uplift neighborhoods, support local businesses, and create lasting positive change.
-Vision for the Future
+Vision for the Future #
 Ruben envisions a world where architecture and construction harmonize with the environment, where buildings inspire and serve their purpose. His dedication to sustainable practices and innovative solutions drives Abundis Construction toward this vision.
 
 Connect with Ruben #
