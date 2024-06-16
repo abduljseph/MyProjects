@@ -102,3 +102,43 @@ nav {
       background-color: #fecd45;
       color: #2568fb;
     }
+
+    @media (max-width : 768px) {
+      nav ul {
+        flex-direction: column;
+      }
+      nav li {
+        padding: 10px;
+        text-align: center;
+      }
+    }
+
+    nav ul {
+      list-style-type: none;
+
+      padding: 0;
+
+        margin: 0;
+
+          display: flex;
+
+      justify-content: space-around;
+
+      color:#1ba098;
+
+    }
+
+    na li {
+      color :#fefefe;
+      font-size: 16px;
+      cursor: finger;
+      transition: background-color 0.3s;
+    }
+
+    nav li:hover {
+      background-color: #red;
+    }
+
+nav i {
+  margin-right: 8px;
+}
