@@ -33,20 +33,20 @@
 
 <body>
 
-  <div>
-    <h2>Retail Construction</h2>
-    <p></p>
-  </div>
+  <div class="contact-form">
+    <h2>Contact Us</h2>
+    <form action="submit_contact_form.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="customer" name="customer" required/>
 
-  <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
 
-    <h2>Commercial Construction</h2>
-    <p></p>
-  </div>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
 
-  <div>
-    <h2>Renovation</h2>
-    <p></p>
+      <button type="submit">Submit</button>
+    </form>
   </div>
 
   <article>

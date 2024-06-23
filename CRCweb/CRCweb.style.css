@@ -1,6 +1,6 @@
 nav {
 
-   background-color: ;
+   background-color:none ;
    color :blue;
  padding: 1rem;
 
@@ -108,6 +108,7 @@ nav {
        transition: color 0.3s ease;
 
     }
+
     body {
 
       background-color: #fecd45;
@@ -147,9 +148,55 @@ nav {
     }
 
     nav li:hover {
-      background-color: #red;
+      background-color: red;
     }
 
 nav i {
   margin-right: 8px;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  height: 150px;
+  resize: vertical; /* Allows the user to resize the textarea vertically */
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
 }
