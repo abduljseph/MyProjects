@@ -56,20 +56,31 @@ nav {
   .dropdown-content {
 
       display: none;
-
       position: absolute;
-
-     background-color: #333;
-
+    /* background-color: #333; */
     min-width: 160px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    comment out this section removes the box around the drop downs . Exactly the look i was going for */
+    z-index: 1;
+  }
+
+  .dropdown-content li {
+    float: none;
+  }
+
+  .dropdown-content li a{
+
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
 
   }
 
 
-
   .dropdown:hover .dropdown-content {
 
-     display: block;
+    display: block;
 
   }
 
