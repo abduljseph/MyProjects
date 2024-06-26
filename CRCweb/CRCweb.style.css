@@ -1,6 +1,6 @@
 nav {
 
-   background-color:none ;
+   background-color:black;
    color :blue;
  padding: 1rem;
 
@@ -236,12 +236,14 @@ nav i {
   border-radius: 5px;
 
   .hero-section {
-    background-image: url('https://via.placeholder.com/1200x400'); /* Replace with your hero image */
+    background-image: url('https://via.placeholder.com/1200x400'); Replace with your hero image
+
     background-size: cover;
     background-position: center;
     padding: 100px 20px;
     text-align: center;
     color: white;
+
 }
 
 .hero-section h1 {
