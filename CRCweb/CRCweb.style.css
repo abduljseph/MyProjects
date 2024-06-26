@@ -208,3 +208,29 @@ nav i {
 .contact-form button:hover {
   background-color: #0056b3;
 }
+
+.content-section {
+  padding: 20px;
+  margin: 20px 0;
+  max-width: 500%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.content-section h2 {
+  margin-top: 150px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
