@@ -18,8 +18,20 @@
       <li><a href="index.html">Home</a></li>
 
       <li><a href="about.html">About Me</a></li>
+<!-- Attempted to add a drop down menu wasn't successful -->
+<li class="dropdown">
+  <a href="services.html" class="dropbtn">
+      <i class="fas fa-burger"></i> Services
+  </a>
+  <ul class="dropdown-content">
+      <li><a href="Commercial.html">Commercial</a></li>
+      <li><a href="Residential.html">Residential</a></li>
+      <li><a href="Stucco.html">Stucco</a></li>
+      <li><a href="Scaffolding.html">Scaffolding</a></li>
+      <li><a href="Demo.html">Demo</a></li>
+  </ul>
+</li>
 
-      <li><a href="services.html">Services</a></li>
 
       <!-- <li><a href="#">Contact</a></li> -->
 
@@ -33,7 +45,7 @@
 
 <body>
 
-  <div class="contact-form">
+  <!-- <div class="contact-form">
     <h2>Contact Us</h2>
     <form action="submit_contact_form.php" method="post">
       <label for="name">Name:</label>
@@ -47,7 +59,13 @@
 
       <button type="submit">Submit</button>
     </form>
-  </div>
+  </div> -->
+  <form class="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+</form>
 
   <article>
     <h2>Testimonials</h2>
