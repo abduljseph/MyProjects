@@ -162,7 +162,7 @@ nav i {
 .contact-form {
   width: 50%;
   max-width:500%;
-  margin: 100px 500px;
+  margin: 100px auto;
   padding: 20px;
   box-sizing: border-box;
   border: 1px solid #ccc;
@@ -222,6 +222,7 @@ nav i {
   margin-top: 150px;
 }
 
+
 .image-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -244,6 +245,30 @@ nav i {
     text-align: center;
     color: white;
 
+}
+/* #logo {
+  width: 100%;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+} */
+
+}
+ .logo {
+  width: 100%;
+  text-align: center;
+  background-color: red;
+  padding: 10px;
+}
+
+.logo .image {
+  max-width: 100%;
+  height: auto;
 }
 
 .hero-section h1 {
