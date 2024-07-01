@@ -192,7 +192,7 @@ nav i {
   color: white;
 }
 
-.logo {
+/* .logo {
   width: 100%;
   text-align: center;
   background-color: red;
@@ -202,7 +202,7 @@ nav i {
 .logo .image {
   max-width: 100%;
   height: auto;
-}
+} */
 
 .hero-section h1 {
   font-size: 3em;
