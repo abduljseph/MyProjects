@@ -311,3 +311,23 @@ nav i {
 .side-content {
   flex-basis: 20%; /* Adjust this value based on how much space you want the side content to take */
 }
+
+header {
+  background-color: #f8f9fa; /* Light grey background */
+  padding: 20px; /* Adds space inside the header */
+  text-align: center; /* Centers the text and image */
+}
+
+header img {
+
+    display: block; /* Makes the image a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+    width: 10%; /* Adjust this value to control the size of the image */
+    height: auto; /* Maintains the aspect ratio */
+  }
+
+
+header h1 {
+  color: #343a40; /* Dark grey color for the text */
+  margin-top: 10px; /* Adds space between the image and the heading */
+}
