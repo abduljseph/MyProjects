@@ -169,6 +169,7 @@ nav i {
   margin-top: 150px;
 }
 
+
 .image-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -213,7 +214,7 @@ nav i {
   margin-bottom: 1.5em;
 }
 
-.testimonial-section {
+/* .testimonial-section {
   padding: 50px 20px;
 }
 
@@ -258,4 +259,55 @@ nav i {
   .testimonial-grid {
     grid-template-columns: 1fr;
   }
+} */
+
+/* Testimonials Section */
+.testimonial-section {
+  padding: 20px;
+  background-color: #f0f0f0; /* Light grey background */
+  text-align: center; /* Center align the text */
+}
+
+.testimonial-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the cards in the grid */
+  gap: 20px; /* Space between cards */
+}
+
+.testimonial-card {
+  max-width: 300px; /* Set a max-width for each card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  padding: 15px;
+  background-color: #ffffff; /* White background for the cards */
+}
+
+.testimonial-card img {
+  width: 80px; /* Adjust image size */
+  height: 80px; /* Adjust image size */
+  border-radius: 50%; /* Make the image round */
+  margin-bottom: 10px; /* Space between image and text */
+}
+
+.testimonial-card h3 {
+  margin: 10px 0; /* Space around the client name */
+}
+
+.testimonial-card p {
+  font-style: italic; /* Italicize the testimonial text */
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonials {
+  flex-grow: 1; /* Allows the testimonials to grow and take up available space */
+  text-align: center; /* Centers the text inside the testimonials div */
+}
+
+.side-content {
+  flex-basis: 20%; /* Adjust this value based on how much space you want the side content to take */
 }
