@@ -383,8 +383,21 @@ header h1 {
 }
 
 .cta-button {
-  display: block; /* Stack buttons vertically */
-  margin: 50px 0; /* Add some space between buttons */
+  display: block; /* Allows block level properties */
+  text-align: center; /* Center the text */
+  padding: 10px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Text color */
+  background-color: #007bff; /* Background color */
+  border-radius: 5px; /* Optional: rounded corners */
+  margin: 8px 0; /* Space between buttons */
+  /* Add more styling as needed */
+}
 
-  /* Add more styling (e.g., padding, background color) according to your design */
+.cta-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.cta-button:active {
+  background-color: #004299; /* Even darker shade when clicked */
 }
