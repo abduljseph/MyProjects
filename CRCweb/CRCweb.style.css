@@ -30,15 +30,16 @@ nav {
 }
 
 .dropdown-content {
-  display: none;
+  display: block;
   position: absolute;
   min-width: 160px;
   z-index: 1;
 }
 
-.dropdown-content li {
+
+/* .dropdown-content li {
   float: none;
-}
+} */
 
 .dropdown-content li a {
   padding: 12px 16px;
@@ -192,7 +193,7 @@ nav i {
   color: white;
 }
 
-.logo {
+/* .logo {
   width: 100%;
   text-align: center;
   background-color: red;
@@ -202,7 +203,7 @@ nav i {
 .logo .image {
   max-width: 100%;
   height: auto;
-}
+} */
 
 .hero-section h1 {
   font-size: 3em;
@@ -310,4 +311,94 @@ nav i {
 
 .side-content {
   flex-basis: 20%; /* Adjust this value based on how much space you want the side content to take */
+}
+
+header {
+  background-color: #f8f9fa; /* Light grey background */
+  padding: 20px; /* Adds space inside the header */
+  text-align: center; /* Centers the text and image */
+}
+
+header img {
+
+    display: block; /* Makes the image a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+    width: 10%; /* Adjust this value to control the size of the image */
+    height: auto; /* Maintains the aspect ratio */
+  }
+
+
+header h1 {
+  color: #343a40; /* Dark grey color for the text */
+  margin-top: 10px; /* Adds space between the image and the heading */
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.main-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.main-image img {
+  max-width: 80%;
+  max-height: 80vh;
+  border: 2px solid #000;
+}
+
+.thumbnail-container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 80vh;
+  margin-left: 20px;
+  padding-right: 10px;
+}
+
+.thumbnail {
+  margin-top: 75px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.thumbnail img {
+  max-width: 100px;
+  border: 2px solid transparent;
+  transition: border 0.3s;
+}
+
+.thumbnail img:hover {
+  border: 2px solid #000;
+}
+
+.cta-container {
+  position: fixed; /* Fixed positioning relative to the viewport */
+  top: 50%; /* Center the container vertically */
+  left: 0; /* Align to the right side of the viewport */
+  transform: translateY(-50%); /* Adjust the container to be centered vertically */
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.cta-button {
+  display: block; /* Allows block level properties */
+  text-align: center; /* Center the text */
+  padding: 10px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Text color */
+  background-color: #007bff; /* Background color */
+  border-radius: 5px; /* Optional: rounded corners */
+  margin: 8px 0; /* Space between buttons */
+  /* Add more styling as needed */
+}
+
+.cta-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.cta-button:active {
+  background-color: #004299; /* Even darker shade when clicked */
 }

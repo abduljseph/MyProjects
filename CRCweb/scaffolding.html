@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>www.CrConstruction.com/scaffolding</title>
+  <link rel ="stylesheet" type ="text/css" href="normalize.css">
+  <link rel="stylesheet" href="CRCweb.style.css" type="text/css">
+  <script src="https://kit.fontawesome.com/0d3a34895c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <img src="/docs/img/crclogo.png" alt="CRC Construction Logo">
+    <h1>Full Service Scaffolding</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="about.html">Who we Are</a></li>
+      <li class="dropdown">
+        <a href="services.html" class="dropbtn">What we Do</a>
+        <div class="dropdown-content">
+          <ul>
+            <li><a href="Commercial.html">Commercial</a></li>
+            <li><a href="Residential.html">Residential</a></li>
+            <li><a href="Stucco.html">Stucco</a></li> <!-- Added .html extension -->
+            <li><a href="Scaffolding.html">Scaffolding</a></li> <!-- Added .html extension -->
+            <li><a href="Demo.html">Demo</a></li>
+          </ul>
+        </div>
+      </li>
+      <li><a href="contact.html">How to Reach Us</a></li>
+    </ul>
+  </nav>
+
+  <div class="cta-container">
+    <a href="commercial.html" class="cta-button">Commercial</a>
+    <a href="residential.html" class="cta-button">Residential</a>
+    <a href="stucco.html" class="cta-button">Stucco</a>
+    <a href="demo.html" class="cta-button">Demo</a>
+    <!-- Add more links as needed -->
+  </div>
+
+
+
+
+  <div class="container">
+      <div class="main-image">
+          <img id="displayed-image" src="image1.jpg" alt="Main Image">
+      </div>
+      <div class="thumbnail-container">
+          <div class="thumbnail">
+              <img src="image1.jpg" alt="Thumbnail 1" onclick="changeImage('image1.jpg')">
+          </div>
+          <div class="thumbnail">
+              <img src="image2.jpg" alt="Thumbnail 2" onclick="changeImage('image2.jpg')">
+          </div>
+          <div class="thumbnail">
+              <img src="image3.jpg" alt="Thumbnail 3" onclick="changeImage('image3.jpg')">
+          </div>
+          <div class="thumbnail">
+              <img src="image4.jpg" alt="Thumbnail 4" onclick="changeImage('image4.jpg')">
+          </div>
+          <div class="thumbnail">
+              <img src="image5.jpg" alt="Thumbnail 5" onclick="changeImage('image5.jpg')">
+          </div>
+          <div class="thumbnail">
+              <img src="image6.jpg" alt="Thumbnail 6" onclick="changeImage('image6.jpg')">
+          </div>
+          <div class="thumbnail">
+              <img src="image7.jpg" alt="Thumbnail 7" onclick="changeImage('image7.jpg')">
+          </div>
+          <div class="thumbnail">
+              <img src="image8.jpg" alt="Thumbnail 8" onclick="changeImage('image8.jpg')">
+          </div>
+          <div class="thumbnail">
+              <img src="image9.jpg" alt="Thumbnail 9" onclick="changeImage('image9.jpg')">
+          </div>
+      </div>
+  </div>
+
+  <script>
+      function changeImage(src) {
+          document.getElementById('displayed-image').src = src;
+      }
+  </script>
+</body>
+</html>
+
+
