@@ -403,3 +403,41 @@ header h1 {
 .cta-button:active {
   background-color: #004299; /* Even darker shade when clicked */
 }
+
+
+
+.placeholder {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc; /* subtle border */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* soft shadow */
+  background-color: #f9f9f9; /* light background */
+  border-radius: 10px; /* rounded corners */
+}
+
+.placeholder img {
+  width: 150px; /* Adjust as needed */
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease; /* smooth transition for hover effect */
+}
+
+.placeholder img:hover {
+  transform: scale(1.05); /* slightly enlarge on hover */
+}
+
+.placeholder p {
+  font-size: 16px; /* adjust size as needed */
+  color: #333; /* dark gray for text */
+  margin-bottom: 0; /* adjust spacing as needed */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .placeholder img {
+    width: 100px; /* smaller images on smaller screens */
+    height: 133px; /* maintain 4:5 aspect ratio */
+  }
+}
