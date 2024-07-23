@@ -1,7 +1,7 @@
 {
   "name": "savvy-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Overview",
   "scripts": {},
   "keywords": [],
   "author": "",
@@ -10,10 +10,17 @@
     "eslint": "^8.4.1",
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-prettier": "^3.3.1",
-    "prettier": "1.19.1",
-    "node": "^16.13.1"
+    "node": "^16.13.1",
+    "prettier": "1.19.1"
   },
   "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1",
     "yargs-parser": ">=13.1.2"
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
   }
 }
